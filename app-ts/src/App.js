@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import Render from './Examples/components/Render'
+import logo from "./logo.svg";
+import "./App.css";
+import Test1 from './Examples/components/Test1'
+
+const data = {
+  id: 1,
+  text: "Data 001",
+  color: "red",
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Test1 input={data} number= {1}/>
+    </>
   );
 }
 
