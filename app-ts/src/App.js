@@ -1,17 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Test1 from './Examples/components/Test1'
+import RenderBlock02 from './Homework/Session01/Block-UI-2/RenderBlock02'
 
-const data = {
-  id: 1,
-  text: "Data 001",
-  color: "red",
-};
 
 function App() {
   return (
     <>
-      <Test1 input={data} number= {1}/>
+      <RenderBlock02/>
     </>
   );
 }

@@ -1,0 +1,31 @@
+body{
+    margin: 5%;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main .product-item1{
+    width: 25%;
+    
+}
+.main .product-item1 h4{
+    text-align: end;
+    margin-right: 30px;
+    color: white;
+}
+.main .product-item2{
+    width: 75%;
+}
+.main .product-percent{
+    display: flex;
+    align-items: center;
+    
+}
+.main .product-percent h4{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-left: 30px;
+    color: white;
+}

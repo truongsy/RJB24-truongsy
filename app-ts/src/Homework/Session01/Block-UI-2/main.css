@@ -1,0 +1,9 @@
+body{
+    background-color:aliceblue;
+}
+.main{
+    background-color: white;
+    margin: 8% 6%;
+    border: 1px solid #ccc;
+    height: 70vh;
+}
