@@ -1,0 +1,65 @@
+body{
+    background-color: aliceblue;
+
+}
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.chart {
+    border: 1px solid rgb(240, 228, 228);
+    box-shadow: 2px 2px rgb(240, 228, 228);
+    width: 20%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.main .text-chart {
+    height: 50%;
+    width: 100%;
+}
+
+.main .column-chart {
+    border: 3px solid rgb(240, 228, 228);
+    height: 50%;
+    width: 80%;
+    background-color:rgb(247, 245, 243);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 9.5%;
+}
+
+.container {
+    display: flex;
+    flex-direction:column;
+    padding: 0 5%;
+}
+.container .container-column {
+    border: 1px solid #ccc;
+    width: 20px;
+    height: 70px;
+    margin: 0 1px;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+.container .container-column div{
+    
+    
+}
+
+.container-item span{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.container .bro {
+    display: flex;
+    flex-direction: column;
+}

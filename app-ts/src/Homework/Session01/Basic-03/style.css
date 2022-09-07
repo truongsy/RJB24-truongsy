@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+.main {
+    width: 30%;
+    height: 400px;
+    margin: 5% 35%;
+    background-color: white;
+}
+
+.main .product-item img{
+    width: 92%;
+    height: auto;
+    margin: 4%;
+}
+
+.main .product-items {
+    margin: 0 5%;
+}
+.main .product-items small{
+    color: #ccc;
+    font-weight: 500;
+}
+.main .product-items h4{
+    color: rgb(122, 121, 121);
+    font-size: 1.1em;
+    font-weight: 500;
+}

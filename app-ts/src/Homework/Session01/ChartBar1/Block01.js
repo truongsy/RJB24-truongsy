@@ -1,17 +1,7 @@
 import React from 'react'
 import "./style.css"
 export default function block01() {
-    let a = {
-        id: 2,
-        name: 'honda',
-        color: 'red',
-        colorpercent: 'rgb(238, 54, 54)'
-    }
-    let b = {
-        id: 1,
-        name: 'Kia',
-    }
-
+  
     let array = [
         {
             name: 'BANDWIDTH',
