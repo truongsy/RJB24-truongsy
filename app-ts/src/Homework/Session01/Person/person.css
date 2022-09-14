@@ -1,0 +1,31 @@
+body{
+    
+}
+.wrapper{
+    padding: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:aliceblue;
+}
+
+.main{
+    margin: 10px;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+.main .post{
+    margin: 20px;
+}
+.main .post img{
+    height: auto;
+}
+.main .post h5{
+    text-align: center;
+    color: rgb(104, 101, 101);
+    margin-bottom: 7px;
+}
+.main .post p{
+    text-align: center;
+    color: #ccc;
+}

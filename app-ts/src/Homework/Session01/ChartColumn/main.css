@@ -23,6 +23,22 @@ body{
     width: 100%;
 }
 
+.item-visitor {
+    text-align: center;
+}
+.item-visitor h5 {
+    font-weight: 500;
+    font-family: inherit;
+    color: rgb(46, 45, 45);
+    margin-bottom: 15px;
+}
+.item-visitor h1 {
+    font-weight: 100;
+    color: rgb(21, 198, 252);
+    font-size: 2.5em;
+    margin-top: 15px;
+}
+
 .main .column-chart {
     border: 3px solid rgb(240, 228, 228);
     height: 50%;

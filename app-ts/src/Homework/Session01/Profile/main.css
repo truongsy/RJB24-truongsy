@@ -6,4 +6,43 @@ body{
     margin: 8% 6%;
     border: 1px solid #ccc;
     height: 70vh;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px  #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.post {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.post .post-list{
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.post .post-list .list-icon{
+    font-size: large;
+}
+.post-list .list-text{
+    margin: 0 20px;
+    font-weight: 500;
+    color: rgb(107, 106, 106);
+}
+.post .post-percent {
+    height: 10px;
+    width: 60%;
+    background-color: #ccc;
+    margin-top: 25px;
+    border-radius: 2px;
+}
+
+.post .post-percent div{
+    border-radius: 2px;
+    height: 100%;
+    
 }

@@ -27,3 +27,26 @@ body {
     font-weight: 500;
     font-family: inherit;
 }
+.star-icon {
+    display: flex;
+    align-items: center;
+}
+.star-icon .star-yellow:first-child{
+    margin-left: 0;
+}
+.star-icon .star-yellow  {
+    font-size: 1.4em;
+    margin: 0 5px;
+    color: yellow;
+   
+}
+.star-icon .star{
+    font-size: 1.4em;
+    margin: 0 5px;
+}
+.star-icon span{
+    font-size: 1.1em;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 1px;
+}

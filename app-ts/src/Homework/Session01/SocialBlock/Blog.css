@@ -1,0 +1,38 @@
+body{
+    background-color: antiquewhite;
+}
+.wrapper {
+    background-color: aliceblue;
+    margin: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.main {
+    width: 22%;
+    height: 250px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.icon-blog {
+    margin: 13px;
+    font-size: 2em;
+    color: white;
+}
+.list-blog{
+    margin: 20px;
+}
+
+.list-blog h2{
+    margin-bottom: 0;
+    font-weight: 300;
+    color: white;
+}
+
+.list-blog small{
+    color: white;
+    font-size: 0.6em;
+}
