@@ -70,4 +70,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 READ.ME 
-### Link tổng hợp các Attribute trong HTML: https://timoday.edu.vn/tong-hop-cac-thuoc-tinh-trong-html/
+### Link tổng hợp các Attribute trong HTML: (https://timoday.edu.vn/tong-hop-cac-thuoc-tinh-trong-html/)
+### Link HTML DOM event w3c: (https://www.w3schools.com/js/js_events_examples.asp)

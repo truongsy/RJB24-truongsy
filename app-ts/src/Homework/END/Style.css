@@ -1,0 +1,19 @@
+.post-title {
+    text-align: center;
+}
+.post-item{
+    text-align: justify;
+    margin-left: 5%;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.form input{
+    margin-bottom: 5px;
+}
+.wrapper tr ,td{
+    border: 1px solid #ccc;
+    text-align: center;
+}
